@@ -1,0 +1,38 @@
+.dictheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* height: 35vh; */
+    width: 100%;
+}
+
+.dicttitle {
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 900px) {
+    .dictheader {
+        justify-content: space-evenly;
+        height: 25vh;
+    }
+    .dicttitle {
+        font-size: 11vw;
+    }
+}
+
+.dictinputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dictsearch {
+    width: 43%;
+}
+
+.dictselect {
+    width: 43%;
+}

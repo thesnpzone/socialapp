@@ -1,0 +1,40 @@
+.wheathersection1 {
+    background: url("../../Asset/img/BackGround.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: aliceblue;
+    display: flex;
+    margin-top: -8rem;
+}
+
+.wheathercard {
+    border-radius: 35px !important;
+    backdrop-filter: blur(7px) !important;
+    background-color: rgba(0, 191, 255, 0) !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px !important;
+    border: 0px rgba(255, 255, 255, 0.4) solid !important;
+    border-bottom: 0px rgba(40, 40, 40, 0.35) solid !important;
+    border-right: 0px rgba(40, 40, 40, 0.35) solid !important;
+    -webkit-border-radius: 35px !important;
+    -moz-border-radius: 35px !important;
+    -ms-border-radius: 35px !important;
+    -o-border-radius: 35px !important;
+}
+
+.wheatherm-top {
+    margin-top: 10rem;
+}
+
+
+/* media queary */
+
+@media only screen and (max-height: 638px) {
+    .wheathersection1 {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}

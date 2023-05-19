@@ -1,0 +1,39 @@
+.frow {
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 113px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.btn {
+    background-color: #6846CA !important;
+    color: #ffffff !important;
+    font-weight: bolder;
+}
+
+.control {
+    padding: 1vmax 2vmax;
+    border-radius: 50px;
+}
+
+.registerForm>input[type="file"]::-webkit-file-upload-button {
+    background-color: #6846CA !important;
+    color: white;
+    width: 100%;
+    padding: 1vmax;
+    border-radius: 30px;
+    border: none;
+    font: 100 1.2rem "Roboto", sans-serif;
+}
+
+.registerForm {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.mll-5 {
+    margin-left: 4rem;
+}

@@ -1,0 +1,56 @@
+button {
+    outline: 1px solid #ff000000 !important;
+}
+
+.imguserimg {
+    border-radius: 50%;
+    border: 5px solid rebeccapurple;
+    width: 80px;
+    height: 80px;
+}
+
+.sectionRight {
+    overflow-y: hidden;
+}
+
+.bgimg {
+    background: url("../../Asset/img/wheatherimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.wheathertemp {
+    margin-top: -16px;
+    margin-left: -15px;
+    font-size: 10rem
+}
+
+.wheatherdetials {
+    /* height: 100px; */
+    margin-top: 12rem;
+    padding: 2rem;
+    font-size: 27px;
+    color: aliceblue;
+    background: rgba( 214, 184, 245, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 20px);
+    -webkit-backdrop-filter: blur( 20px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.wheatherhometomainwheathert>a {
+    color: #ffffff !important;
+}
+
+.homethirdcol {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);
+}

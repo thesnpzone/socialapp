@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(108.32deg, #F3E6FA -7.15%, #B193C2 100%) !important;
+    overflow-y: visible;
+    min-height: 100vh;
+}
+
+.btnstyle {
+    background-color: #8546F0;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+a,
+Link {
+    text-decoration: none !important;
+    color: #4f46f0 !important;
+    font-size: 25px;
+}
+
+.loadercenter {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+@media only screen and (max-height: 600px) {
+    body {
+        height: 100% !important;
+    }
+}

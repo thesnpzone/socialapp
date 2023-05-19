@@ -1,0 +1,42 @@
+.modal-dialog-full-width {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+}
+
+.modal-content-full-width {
+    height: auto !important;
+    min-height: 100% !important;
+    border-radius: 0 !important;
+    background-color: #ececec !important
+}
+
+.modal-header {
+    border-bottom: 1px solid #e9ecef00 !important;
+}
+
+.navcolor,
+.btncolor {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.logo {
+    height: 4rem !important;
+}
+
+.fasize {
+    font-size: 4rem;
+}
+
+caption {
+    text-align: center !important;
+}
+
+.modal-content {
+    background: linear-gradient(108.32deg, #F3E6FA -7.15%, #B193C2 100%) !important;
+    background-position: center center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}

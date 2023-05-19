@@ -1,0 +1,12 @@
+.transleterform {
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+.transleateselect {
+    width: 70%;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid transparent
+}

@@ -1,0 +1,32 @@
+.dictmeanings {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    height: 55vh;
+    border: 10px solid rgb(105, 105, 105);
+    border-radius: 10px;
+    padding: 10px 20px;
+    overflow-x: hidden;
+}
+
+.dictsubTitle {
+    font-size: 5vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 900px) {
+    .dictmeanings {
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 60vh;
+    }
+}
+
+.dictsingleMean {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}

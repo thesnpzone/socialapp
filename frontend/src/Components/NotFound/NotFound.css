@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Roboto:wght@500&display=swap");
+.errordiv {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    max-width: 1000px;
+    width: calc(100% - 4rem);
+    margin: 0 auto;
+}
+
+.erroraside {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/right-edges.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 25px 100%;
+}
+
+.erroraside .errorimg {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.errormain {
+    text-align: center;
+}
+
+.errormain .errorh1 {
+    font-family: "Fontdiner Swanky", cursive;
+    font-size: 7rem;
+    color: #6e50dc;
+    margin-bottom: 1rem;
+}
+
+.errormain .errorp {
+    margin-bottom: 2.5rem;
+    font-size: 35px;
+}
+
+.errormain .errorp .errorem {
+    font-style: italic;
+    color: #6e50dc;
+}
+
+.errormain .errorbutton {
+    font-family: "Fontdiner Swanky", cursive;
+    font-size: 1rem;
+    color: #383838;
+    border: none;
+    background-color: #f36a6f;
+    padding: 1rem 2.5rem;
+    transform: skew(-5deg);
+    transition: all 0.1s ease;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/cursors-eye.png"), auto;
+}
+
+.errormain .errorbutton:hover {
+    background-color: #6e50dc;
+    color: #ffffff;
+    transform: scale(1.15);
+}
+
+@media (max-width: 700px) {
+    .errorbody {
+        background: #383838;
+        font-size: 16px;
+    }
+    .errordiv {
+        flex-flow: column;
+    }
+    .erroraside {
+        background-image: none;
+        background-color: white;
+    }
+    .erroraside .errorimg {
+        max-width: 300px;
+    }
+}
